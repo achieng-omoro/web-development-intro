@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    height: 90px;
+    width: 300px;
+    color: white;
+}
+input{
+    border-radius: 20px;
+}
+form{
+    background: blue;
+    border: 2px solid red;
+}
+option{
+    background: yellow;
+}
+select{
+    margin-bottom: 30px;
+}

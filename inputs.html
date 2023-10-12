@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inputs</title>
+    <style>
+        .main{
+            display: flex;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div class="main">
+    <div class="1">
+    <h4>Text input type</h4>
+    <label for="fname">First Name:</label><br>
+    <input type="text"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text">
+    <br>
+    <br>
+<h4>Password input type</h4>
+    <label for="password">Enter password:</label><br>
+    <input type="password"><br>
+    <label for="password">Confirm password:</label><br>
+    <input type="password">
+    <br>
+    <br>
+<h4>Submit input type</h4>
+     <label for="fname">First Name:</label><br>
+    <input type="password"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="password"><br><br>
+    <input type="submit">
+    </div>
+     <div class="2">
+    <h4>Reset input type</h4>
+    <label for="fname">First Name:</label><br>
+    <input type="text" value="Michael"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" value="Achieng"><br><br>
+         <input type="reset">
+    <br>
+    <br>
+<h4>Radio input type</h4>
+<!--         name attribute is mandatory-->
+    <input type="radio" name="favfruit">
+         <label for="Grapes">Grapes</label><br>
+    <input type="radio" name="favfruit">
+         <label for="Mango">Mango</label>
+    <br>
+    <br>
+<h4>Checkbox input type</h4>
+         <input type="checkbox">
+         <label for="Grapes">Grapes</label><br>
+    <input type="checkbox">
+         <label for="Mango">Mango</label>
+    </div>
+          <div class="3">
+    <h4>Button input type</h4>
+    <input type="button" value="Click here" onclick="alert('you clicked me!')">
+    <br>
+    <br>
+<h4>Color input type</h4>
+         <label for="favcolor">Choose a favorite color</label><br><br>
+    <input type="color">
+    <br>
+    <br>
+<h4>Date time local input type</h4>
+              <label for="Birthday">My birthday and time</label><br>
+              <input type="datetime-local">
+
+<h4>Email input type</h4>
+              <label for="Email">Enter email address</label><br>
+              <input type="email">
+    </div>
+        <div class="4">
+    <h4>Image input type</h4>
+    <label for="fname">First Name:</label><br>
+    <input type="text"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text"><br>
+    <input type="image" src="submit.jpeg" height="55px" width="55px">
+    <br>
+    <br>
+<h4>File input type</h4>
+            <label for="file">Upload a file</label><br><br>
+<input type="file">
+    <br>
+    <br>
+<h4>Hidden input type</h4>
+     <label for="fname">First Name:</label><br>
+    <input type="text"><br>
+
+    <input type="hidden" value="Achieng"><br>
+    <input type="submit">
+    </div>
+        <div class="5">
+    <h4>Month input type</h4>
+    <label for="Birthday">Birthday (Month and Year):</label><br>
+    <input type="month"><br>
+
+    <br>
+    <br>
+            <!--            max and min are used to restrict a range-->
+<h4>Number input type</h4>
+            <label for="Age">Enter your age</label><br><br>
+            <input type="number" min="1" max="200"><br><br>
+            <input type="submit">
+    <br>
+    <br>
+<h4>Number (steps) input type</h4>
+<!--            value attribute is the default value shown to the user-->
+     <label for="Number">Steps of 10s:</label><br>
+    <input type="number" step="10" min="0" max="100" value="20" ><br>
+
+            <h4>Week Input Type</h4>
+            <label for="week">Select a week and year</label>
+            <input type="week">
+
+    </div>
+        <div class="6">
+    <h4>Range input type</h4>
+    <label for="Volume">Volume between 0 and 70:</label><br>
+            <input type="range" min="0" max="70" step="5">
+
+
+    <br>
+    <br>
+
+<h4>Search input type</h4>
+            <label for="Search">Search here</label><br><br>
+            <input type="search" ><br><br>
+            <input type="submit" value="search">
+    <br>
+    <br>
+<h4>Tel input type</h4>
+
+     <label for="PhoneNumber">Enter your phone number</label><br>
+    <input type="tel" placeholder="0729-283-337" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"><br><br>
+            <input type="submit">
+
+            <h4>Time Input Type</h4>
+            <label for="Time">Choose a time for your appointment</label><br>
+            <input type="time">
+            <input type="submit">
+
+    </div>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    background: darkslategrey;
+    color: yellow;
+    font-family: "Segoe UI Black";
+}
+body{
+    background: cadetblue;
+    text-align: center;
+}
+.paragraph1{
+    color: gold;
+}

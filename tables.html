@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <style>
+        table,tr,td,th{
+            border:blue 1px solid;
+            border-collapse: collapse;
+        }
+        thead{
+            background: darkolivegreen;
+            color: antiquewhite;
+        }
+        tr:hover{
+            background-color: darkblue;
+            font-size: 15px;
+        }
+        table{
+            font-family: Ebrima;
+        }
+        tfoot{
+            background-color: aquamarine;
+        }
+        .row2{
+            background-color: bisque;
+        }
+        #row3{
+            background-color: hotpink;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--css selectors: we use divs and classes-->
+<a href="home.html">Home</a>
+<a href="tables.html">About us</a>
+<a href="forms.html">Contact us</a>
+<table>
+
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>School</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Mike</td>
+        <td>mike@gmail.com</td>
+        <td>Jkuat</td>
+    </tr>
+    <tr class="row2">
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+      <tr id="row3">
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+      <tr class="row2">
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+      <tr>
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+      <tr id="row3">
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+      <tr>
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+
+      <tr>
+        <td>Ken</td>
+        <td>ken@gmail.com</td>
+        <td>Jooust</td>
+    </tr>
+    <tr>
+        <td>herine</td>
+        <td>herine@yahoo.com</td>
+        <td>UON</td>
+    </tr>
+    </tbody>
+
+<tfoot>
+ <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>School</th>
+    </tr>
+</tfoot>
+
+</table>
+
+</body>
+</html>
